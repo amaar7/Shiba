@@ -10,12 +10,16 @@ function displayProducts(category) {
     const filteredProducts = category === 'All' ? menu : menu.filter(item => item.category === category);
     filteredProducts.forEach(item => {
         const productCard = document.createElement('div');
-        productCard.classList.add('product-card', 'w-full', 'md:w-1/2', 'lg:w-1/4', 'p-4', 'cursor-pointer');
+        productCard.classList.add('product-card', 'flex', 'p-4', 'cursor-pointer');
         productCard.innerHTML = `
-            <img src="${item.img}" alt="${item.title}" class="w-full h-auto mb-2">
-            <h3 class="text-lg font-semibold">${item.title}</h3>
-            <p class="text-sm">${item.desc}</p>
-            <p class="text-sm font-medium">KSh${item.price.toFixed(2)}</p> <!-- Replaced $ with KSh -->
+            <img src="${item.img}" alt="${item.title}" class="w-24 h-auto mr-4 rounded-lg">
+            <div class="flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-semibold">${item.title}</h3>
+                    <p class="text-sm">${item.desc}</p>
+                </div>
+                <p class="text-sm font-medium">KSh${item.price.toFixed(2)}</p> <!-- Replaced $ with KSh -->
+            </div>
         `;
         productCard.addEventListener('click', () => {
             showProductDetails(item);
