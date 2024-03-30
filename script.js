@@ -12,7 +12,7 @@ function displayProducts(category) {
         const productCard = document.createElement('div');
         productCard.classList.add('product-card', 'flex', 'p-4', 'cursor-pointer');
         productCard.innerHTML = `
-            <img src="${item.img}" alt="${item.title}" class="w-24 h-auto mr-4 rounded-lg">
+        <img src="${item.img}" alt="${item.title}" class="w-40 h-40 object-cover rounded-lg mr-4">
             <div class="flex flex-col justify-between">
                 <div>
                     <h3 class="text-lg font-semibold">${item.title}</h3>
