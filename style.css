@@ -1,10 +1,28 @@
-*{
-    font-family: 'Poppins', sans-serif;
+/* Default styles */
+* {
+  font-family: 'Poppins', sans-serif;
 }
+
 /* For smaller devices */
 @media (max-width: 768px) {
   #product-container {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  /* Adjust button size for smaller devices */
+  .category-btn {
+      padding: 5px 8px; /* Adjust padding to make buttons smaller */
+      font-size: 10px; /* Adjust font size for smaller devices */
+  }
+
+  /* Display category buttons in one line */
+  .flex-1 {
+      display: flex;
+      justify-content: left; /* Center the buttons horizontally */
+  }
+
+  .category-btn {
+      margin: 0 0px; /* Add margin between buttons */
   }
 }
 
