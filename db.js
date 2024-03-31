@@ -13,7 +13,7 @@ export const menu = [
       "title": "Arabian Salad",
       "category": "Appetizers",
       "price": 200,
-      "img": "images/salads.png",
+      "img": "images/Arabian Salad.png",
       "desc": "Fresh salad with Arabian flavors"
     },
     {
@@ -21,7 +21,7 @@ export const menu = [
       "title": "Spicy Hummus",
       "category": "Appetizers",
       "price": 250,
-      "img": "images/hummus.avif",
+      "img": "images/Spicy Hummus.jpg",
       "desc": "Spiced mashed chickpeas dip"
     }, 
     {
@@ -29,7 +29,7 @@ export const menu = [
       "title": "Hummus with Meat",
       "category": "Appetizers",
       "price": 350,
-      "img": "images/spiced-beef-on-hummus.jpg",
+      "img": "images/humus meat.png",
       "desc": "Mashed chickpeas topped with marinated wok-tossed meat"
     },
     // Add more items as needed from other HTML pages
@@ -54,7 +54,7 @@ export const menu = [
       "title": "Shish Tawook",
       "category": "grills",
       "price": 640,
-      "img": "images/shish.png",
+      "img": "images/Shish Tawook.png",
       "desc": "Flame grilled skewers of marinated chicken breast cubes"
     },
     {
@@ -62,7 +62,7 @@ export const menu = [
       "title": "Mixed Grills",
       "category": "grills",
       "price": 850,
-      "img": "images/mixed-grill.jpg",
+      "img": "images/Mixed Grills.png",
       "desc": "A platter consisting of chicken kebab, lamb kebab, and shish tawook"
     },
     {
@@ -86,7 +86,7 @@ export const menu = [
       "title": "Watermelon Juice",
       "category": "drinks",
       "price": 150,
-      "img": "images/watermelon.jpg",
+      "img": "images/Watermelon.jpg",
       "desc": "Cool and hydrating juice made from juicy watermelons."
     },
     {
@@ -94,7 +94,7 @@ export const menu = [
       "title": "Mango Juice",
       "category": "drinks",
       "price": 150,
-      "img": "images/Mango-Juice-1.jpg",
+      "img": "images/Mango Juice.png",
       "desc": "Exotic juice crafted from ripe and succulent mangoes."
     },
     {
@@ -102,7 +102,7 @@ export const menu = [
       "title": "Cocktail",
       "category": "drinks",
       "price": 180,
-      "img": "images/cocktail.png",
+      "img": "images/Cocktail.jpg",
       "desc": "Artfully mixed cocktail blending premium spirits and flavors."
     },
     {
@@ -118,7 +118,7 @@ export const menu = [
       "title": "Lemon with Mint",
       "category": "drinks",
       "price": 150,
-      "img": "images/lemon-mint-juice.avif",
+      "img": "images/Lemon with Mint.jpg",
       "desc": "Zesty lemon juice infused with refreshing mint leaves."
     },
     {
@@ -126,7 +126,7 @@ export const menu = [
       "title": "Lemonade",
       "category": "drinks",
       "price": 120,
-      "img": "images/lemonade.png",
+      "img": "images/Lemonade.webp",
       "desc": "Classic lemonade made from freshly squeezed lemons and sweetened with sugar."
     },    
     {
@@ -150,7 +150,7 @@ export const menu = [
       "title": "Lamb Haneed",
       "category": "main",
       "price": 590,
-      "img": "images/lambhaneeth.jpg", 
+      "img": "images/Lamb Haneed.jpg", 
       "desc": "Tender lamb seasoned with special traditional spices and slow roasted"
   },
   {
